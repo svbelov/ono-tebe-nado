@@ -231,9 +231,12 @@
 .about {
     display: grid;
     grid-template-columns: 334px 1fr;
+    /* grid-template-columns: 334px 1fr; */
     column-gap: 25px;
+    row-gap: 5px;
     margin: 0 24px 180px;
     padding-top: 35px;
+    
    
 }
 
@@ -267,8 +270,8 @@
     grid-column-start: 2;
     row-gap: 24px;
     font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.01em; 
+    /* line-height: 24px;*/
+    /* letter-spacing: 0.01em;   */
 
 }
 
